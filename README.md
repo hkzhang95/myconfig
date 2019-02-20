@@ -5,6 +5,6 @@
 
 ## Usage
 ```bash
-git clone https://github.com/GodBlessZhk/kevin_config.git [path]
+git clone https://github.com/hkzhang95/kevin_config.git [path]
 ./env.sh
 ```
