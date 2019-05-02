@@ -23,5 +23,5 @@ git clone https://github.com/hkzhang95/myconfig.git [path]
 ./install.sh
 # set up tmux and vim
 # YCM needs cmake to compile (if you need semantic support for C-family languages)
-./env.sh
+./setup.sh
 ```
