@@ -10,4 +10,5 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
 ./install.py --clang-completer
