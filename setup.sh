@@ -16,6 +16,6 @@ git submodule update --init --recursive
 # setting on-my-zsh
 curl -Lo ~/oh-my-zsh_install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 sh ~/oh-my-zsh_install.sh --unattended
+rm ~/oh-my-zsh_install.sh
 chsh -s $(which zsh)
 echo "oh-my-zsh installed, remember to modify ~/.zshrc and restart your terminal"
-rm ~/oh-my-zsh_install.sh
